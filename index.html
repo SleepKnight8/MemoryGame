@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+
+<title>Memory Game</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="logo.png">
+</head>
+
+<body>
+
+<div id="GameContainer">
+
+    <h1 id="GameName">Memory</h1>
+    <h2 id="GameMission">Watch the pattern and repeat it.</h2>
+
+    <!-- SCORE DISPLAY -->
+    <div id="GameStatusDiv">
+        <h4 id="WinStatus">Score: 0</h4>
+        <h4 id="LoseStatus">Best: 0</h4>
+    </div>
+
+    <!-- GAME MESSAGE -->
+    <h2 id="GameMessage">Press Start ▶</h2>
+
+    <!-- BUTTONS -->
+    <button id="StartGame" onclick="play()">Start</button>
+
+    <!-- BOARD -->
+    <div id="BoardDiv">
+        <table id="ColorTable">
+
+            <tr>
+                <td class="c1" data-value="1"></td>
+                <td class="c2" data-value="2"></td>
+                <td class="c3" data-value="3"></td>
+            </tr>
+
+            <tr>
+                <td class="c4" data-value="4"></td>
+                <td class="c5" data-value="5"></td>
+                <td class="c6" data-value="6"></td>
+            </tr>
+
+            <tr>
+                <td class="c7" data-value="7"></td>
+                <td class="c8" data-value="8"></td>
+                <td class="c9" data-value="9"></td>
+            </tr>
+
+        </table>
+    </div>
+
+    <!-- FOOTER -->
+    <h2>The Best Developer</h2>
+
+    <a href="https://github.com/SleepKnight8" target="_blank" style="color:#f5e05a;">
+        SleepKnight8
+    </a>
+
+    <p id="copyright">© 2026 SleepKnight8. All rights reserved.</p>
+
+</div>
+
+<script src="index.js"></script>
+
+</body>
+</html>
